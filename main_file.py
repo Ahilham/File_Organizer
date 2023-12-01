@@ -5,11 +5,17 @@ import easygui
 from watchdog.events import FileSystemEventHandler
 from watchdog.observers import Observer
 from File_Organizer_class import FileOrganizer
+from animation import animation
 
 def get_directory():
     return easygui.diropenbox(title = "Select a directory to organize")
 
 if __name__ == "__main__":
+
+    animate_text = animation()
+    animate_text.print_moving_text()
+
+
     path = get_directory()
 
     if path is None:
