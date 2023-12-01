@@ -4,7 +4,7 @@ This script organizes files in a specified directory based on their types using 
 
 ## Usage
 
-1. Download the executable file from the [releases]https://github.com/Ahilham/File_Organizer.git) page.
+1. Download the executable file from the [releases](https://github.com/Ahilham/File_Organizer.git) page.
 
 2. Run the executable file.
 
