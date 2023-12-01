@@ -20,7 +20,7 @@ class animation():
         width, height = shutil.get_terminal_size()
         
 
-        for i in range(height):
+        for i in range(int(height/2)):
             os.system("clear" if os.name == "posix" else "cls")
             padding = "\n" * i
             sys.stdout.write(padding+text)
