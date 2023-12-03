@@ -1,6 +1,6 @@
-# File Organizer Script
+# File Organizer Program
 
-This script organizes files in a specified directory based on their types using the `watchdog` library. The script has been compiled into an executable file for ease of use.
+This program organizes files in a specified directory based on their types using the `watchdog` library. The script has been compiled into an executable file for ease of use.
 
 ## Usage
 
