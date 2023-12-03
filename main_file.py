@@ -56,6 +56,8 @@ def run_program(icon, item):
     else:
         event_handler = FileOrganizer()
 
+    print("Running on "+ path)
+
     for file_name in os.listdir(path):
         file_path = os.path.join(path, file_name)
         event_handler.organize_file(path, file_path)
