@@ -15,8 +15,7 @@ import atexit
 import ctypes
 import platform
 
-# fix the comment problem - couldnt exit a running program without ctrl+c
-#maybe think of away of allowing multiple of the run_program to run but then all of them would exit at moment of clicking the exit menu
+
 
 
 observers = []
@@ -69,8 +68,8 @@ def run_program(icon, item):
 
 
 def create_system_tray_icon():
-    global icon
-    image = Image.open(r"C:\Users\USER\OneDrive\Desktop\executable\iconic.png")#insert picture for tray icon
+    
+    image = Image.open(r"iconic.png")#insert picture for tray icon
     menu = (item('Run', run_program), item('Exit', on_exit))
 
     icon = pystray.Icon("FileOrganizer", image, "FileOrganizer", menu)
