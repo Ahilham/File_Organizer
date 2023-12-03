@@ -4,20 +4,23 @@ This script organizes files in a specified directory based on their types using 
 
 ## Usage
 
-1. Download the executable file from the [releases]https://github.com/Ahilham/File_Organizer.git) page.
+1. Download the executable file from the [releases](https://github.com/Ahilham/File_Organizer.git) page.
 
 2. Run the executable file.
 
-3. A dialog box will prompt you to select a directory to organize.
+3. The program icon would appear in the system tray and right click on it, click on run.
 
-4. The script will organize files in the selected directory based on their types.
+4. A dialog box will prompt you to select a directory to organize.
 
-5. To end the script, close the console window or press `Ctrl + C` if running from the command line.
+5. The script will organize files in the selected directory based on their types.
+
+6. To end the script, right click on the same program icon in the system tray and an exit menu will pop up. Click on exit.
 
 ## Features
 
 - Organizes files in a directory based on their types.
 - Monitors the directory for new files using the `watchdog` library.
+- Able to monitor multiple directories at the same time.
 
 ## Contributing
 
